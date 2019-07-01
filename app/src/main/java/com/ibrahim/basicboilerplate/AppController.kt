@@ -42,13 +42,18 @@ class AppController : Application() {
     fun checkInternetAvailablity() {
         Timer().schedule(object : TimerTask() {
             override fun run() {
-                val process = Runtime.getRuntime().exec("ping -c 3 www.google.com")
-                val returnVal = process.waitFor()
-                val reachable = (returnVal == 0)
-                if (!isInternetAvailable.equals(reachable)) {
-                    isInternetAvailable = reachable
-                    Helper.isInternetAvailable.postValue(reachable)
+                try {
+                    val process = Runtime.getRuntime().exec("ping -c 3 www.google.com")
+                    val returnVal = process.waitFor()
+                    val reachable = (returnVal == 0)
+                    if (!isInternetAvailable.equals(reachable)) {
+                        isInternetAvailable = reachable
+                        Helper.isInternetAvailable.postValue(reachable)
+                    }
+                }catch (ex:Exception){
+
                 }
+
             }
         }, 0, 3000)
     }

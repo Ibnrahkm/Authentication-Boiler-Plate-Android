@@ -8,6 +8,7 @@ import com.ibrahim.basicboilerplate.service.APIInterface
 import dagger.Component
 import javax.inject.Singleton
 
+
 @Singleton
 @Component(modules = arrayOf(RetrofitModule::class, ContextModule::class))
 interface AppComponent {

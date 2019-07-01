@@ -1,6 +1,7 @@
 package com.ibrahim.basicboilerplate.dagger.Module
 
 import com.ibrahim.basicboilerplate.service.APIInterface
+import com.ibrahim.basicboilerplate.util.Url
 import dagger.Module
 import dagger.Provides
 import okhttp3.Interceptor
@@ -22,7 +23,7 @@ class RetrofitModule {
     @Provides
     @Singleton
     fun provideRetrofit(client: OkHttpClient): Retrofit {
-        return Retrofit.Builder().baseUrl("https://pocketcoin.io/api/").addConverterFactory(ScalarsConverterFactory.create()).client(client).build()
+        return Retrofit.Builder().baseUrl(Url.BASE_URL).addConverterFactory(ScalarsConverterFactory.create()).client(client).build()
 
     }
 
