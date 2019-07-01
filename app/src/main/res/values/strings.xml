@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">BasicBoilerPlate</string>
+    <string name="action_settings">Settings</string>
+    <string name="email">Email</string>
+    <string name="passsword">Password</string>
+    <string name="signup">Sign up</string>
+    <string name="login">Log in</string>
+    <string name="type_your_email">Type your email</string>
+    <string name="type_your_password">Type your password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="term_condition">I read and accept the terms &amp; conditions</string>
+    <string name="first_name">First Name</string>
+    <string name="type_your_first_name">Type your first name</string>
+    <string name="last_name">Last Name</string>
+
+    <string name="type_your_last_name">Type your last name</string>
+    <string name="type_your_confirm_password">Type your confirm password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="email_verification">Email Verification</string>
+    <string name="type_the_code_you_have_received">Type the code you have received</string>
+    <string name="verify">Verify</string>
+    <string name="send_code">Send Code</string>
+    <string name="old_pass">Old Password</string>
+    <string name="type_your_old_password">Type your old password</string>
+    <string name="new_password">New Password</string>
+    <string name="type_your_new_password">Type your new password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="is_empty">is empty</string>
+    <string name="please_read_and_accept">Please read and accept the terms and conditions</string>
+    <string name="please_wait">please wait</string>
+    <string name="signing_in">Signing in...</string>
+    <string name="okay">Okay</string>
+    <string name="info">Info</string>
+    <string name="signing_up">Signing up...</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="it_seems_to_be">It seems to be you\'re offline</string>
+</resources>

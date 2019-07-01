@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="edit_text_header_size">@dimen/_15sdp</dimen>
+    <dimen name="edit_text_size">@dimen/_12sdp</dimen>
+    <dimen name="btn_text_size">@dimen/_14sdp</dimen>
+</resources>
